@@ -1,0 +1,44 @@
+﻿dimension,indikator,einheit,jahr,quelle,im_dashboard,begruendung_bezug_hypothese
+Raumstruktur,Bodenfläche gesamt qkm,,2023,INKAR,,Dient vor allem als strukturelle Kontextvariable und zur räumlichen Einordnung der untersuchten Kreise.
+Bevölkerung und Demografie,Bevölkerung gesamt,,2023,INKAR,,Beschreibt die demografische Struktur der Region und dient als Grundlage zur Einordnung regionaler Unterschiede.
+Geschlechterstruktur,Bevölkerung männlich,,2023,INKAR,,Ermöglicht die Untersuchung geschlechtsspezifischer Unterschiede und ist damit unmittelbar für die Gender-Perspektive des Projekts relevant.
+Geschlechterstruktur,Bevölkerung weiblich,,2023,INKAR,,Ermöglicht die Untersuchung geschlechtsspezifischer Unterschiede und ist damit unmittelbar für die Gender-Perspektive des Projekts relevant.
+Bevölkerung und Demografie,Einwohner von 18 bis unter 25 Jahren,,2023,INKAR,,Beschreibt die demografische Struktur der Region und dient als Grundlage zur Einordnung regionaler Unterschiede.
+Bevölkerung und Demografie,Einwohner von 25 bis unter 30 Jahren,,2023,INKAR,,Beschreibt die demografische Struktur der Region und dient als Grundlage zur Einordnung regionaler Unterschiede.
+Bevölkerung und Demografie,Einwohner von 30 bis unter 50 Jahren,,2023,INKAR,,Beschreibt die demografische Struktur der Region und dient als Grundlage zur Einordnung regionaler Unterschiede.
+Bevölkerung und Demografie,Einwohner von 50 bis unter 65 Jahren,,2023,INKAR,,Beschreibt die demografische Struktur der Region und dient als Grundlage zur Einordnung regionaler Unterschiede.
+Bevölkerung und Demografie,Einwohner von 65 bis unter 75 Jahren,,2023,INKAR,,Beschreibt die demografische Struktur der Region und dient als Grundlage zur Einordnung regionaler Unterschiede.
+Geschlechterstruktur,Frauenanteil,,2023,INKAR,,Ermöglicht die Untersuchung geschlechtsspezifischer Unterschiede und ist damit unmittelbar für die Gender-Perspektive des Projekts relevant.
+Geschlechterstruktur,Frauenanteil 20 bis unter 40 Jahre,,2023,INKAR,,Ermöglicht die Untersuchung geschlechtsspezifischer Unterschiede und ist damit unmittelbar für die Gender-Perspektive des Projekts relevant.
+Bevölkerung und Demografie,Bevölkerungsentwicklung (10 Jahre),,2023,INKAR,,Beschreibt die demografische Struktur der Region und dient als Grundlage zur Einordnung regionaler Unterschiede.
+Bevölkerung und Demografie,Bevölkerungsentwicklung (5 Jahre),,2023,INKAR,,Beschreibt die demografische Struktur der Region und dient als Grundlage zur Einordnung regionaler Unterschiede.
+Wanderung und Mobilität,Außenwanderungssaldo Frauen,,2023,INKAR,,Ermöglicht die Untersuchung geschlechtsspezifischer Unterschiede und ist damit unmittelbar für die Gender-Perspektive des Projekts relevant.
+Wanderung und Mobilität,Außenwanderungssaldo Männer,,2023,INKAR,,"Zeigt Wanderungsbewegungen und ermöglicht die Analyse, ob bestimmte Regionen Bevölkerung beziehungsweise bestimmte Bevölkerungsgruppen verlieren oder gewinnen."
+Wanderung und Mobilität,Binnenwanderungssaldo,,2023,INKAR,,"Zeigt Wanderungsbewegungen und ermöglicht die Analyse, ob bestimmte Regionen Bevölkerung beziehungsweise bestimmte Bevölkerungsgruppen verlieren oder gewinnen."
+Wanderung und Mobilität,Binnenwanderungssaldo Frauen,,2023,INKAR,,Ermöglicht die Untersuchung geschlechtsspezifischer Unterschiede und ist damit unmittelbar für die Gender-Perspektive des Projekts relevant.
+Wanderung und Mobilität,Binnenwanderungssaldo Männer,,2023,INKAR,,"Zeigt Wanderungsbewegungen und ermöglicht die Analyse, ob bestimmte Regionen Bevölkerung beziehungsweise bestimmte Bevölkerungsgruppen verlieren oder gewinnen."
+Wanderung und Mobilität,Fortzugsrate,,2023,INKAR,,"Zeigt Wanderungsbewegungen und ermöglicht die Analyse, ob bestimmte Regionen Bevölkerung beziehungsweise bestimmte Bevölkerungsgruppen verlieren oder gewinnen."
+Wanderung und Mobilität,Zuzugsrate Frauen,,2023,INKAR,,Ermöglicht die Untersuchung geschlechtsspezifischer Unterschiede und ist damit unmittelbar für die Gender-Perspektive des Projekts relevant.
+Wanderung und Mobilität,Zuzugsrate Männer,,2023,INKAR,,"Zeigt Wanderungsbewegungen und ermöglicht die Analyse, ob bestimmte Regionen Bevölkerung beziehungsweise bestimmte Bevölkerungsgruppen verlieren oder gewinnen."
+Wanderung und Mobilität,Fortzugsrate Frauen,,2023,INKAR,,Ermöglicht die Untersuchung geschlechtsspezifischer Unterschiede und ist damit unmittelbar für die Gender-Perspektive des Projekts relevant.
+Wanderung und Mobilität,Fortzugsrate Männer,,2023,INKAR,,"Zeigt Wanderungsbewegungen und ermöglicht die Analyse, ob bestimmte Regionen Bevölkerung beziehungsweise bestimmte Bevölkerungsgruppen verlieren oder gewinnen."
+Bildung und Ausbildung,Schulabgänger mit allgemeiner Hochschulreife,,2023,INKAR,,Bildungs- und Ausbildungsstrukturen können regionale Zukunftschancen sowie Unterschiede zwischen Frauen und Männern sichtbar machen.
+Bildung und Ausbildung,Weibliche Schulabgänger mit allgemeiner Hochschulreife,,2023,INKAR,,Ermöglicht die Untersuchung geschlechtsspezifischer Unterschiede und ist damit unmittelbar für die Gender-Perspektive des Projekts relevant.
+Bildung und Ausbildung,Männliche Schulabgänger mit allgemeiner Hochschulreife,,2023,INKAR,,Ermöglicht die Untersuchung geschlechtsspezifischer Unterschiede und ist damit unmittelbar für die Gender-Perspektive des Projekts relevant.
+Bildung und Ausbildung,Schulabgänger mit mittlerem Abschluss,,2023,INKAR,,Bildungs- und Ausbildungsstrukturen können regionale Zukunftschancen sowie Unterschiede zwischen Frauen und Männern sichtbar machen.
+Bildung und Ausbildung,Weibliche Schulabgänger mit mittlerem Abschluss,,2023,INKAR,,Ermöglicht die Untersuchung geschlechtsspezifischer Unterschiede und ist damit unmittelbar für die Gender-Perspektive des Projekts relevant.
+Bildung und Ausbildung,Männliche Schulabgänger mit mittlerem Abschluss,,2023,INKAR,,Ermöglicht die Untersuchung geschlechtsspezifischer Unterschiede und ist damit unmittelbar für die Gender-Perspektive des Projekts relevant.
+Bildung und Ausbildung,Schulabgänger mit Hauptschulabschluss,,2023,INKAR,,Bildungs- und Ausbildungsstrukturen können regionale Zukunftschancen sowie Unterschiede zwischen Frauen und Männern sichtbar machen.
+Bildung und Ausbildung,Weibliche Schulabgänger mit Hauptschulabschluss,,2023,INKAR,,Ermöglicht die Untersuchung geschlechtsspezifischer Unterschiede und ist damit unmittelbar für die Gender-Perspektive des Projekts relevant.
+Bildung und Ausbildung,Männliche Schulabgänger mit Hauptschulabschluss,,2023,INKAR,,Ermöglicht die Untersuchung geschlechtsspezifischer Unterschiede und ist damit unmittelbar für die Gender-Perspektive des Projekts relevant.
+Bildung und Ausbildung,Schulabgänger ohne Abschluss,,2023,INKAR,,Bildungs- und Ausbildungsstrukturen können regionale Zukunftschancen sowie Unterschiede zwischen Frauen und Männern sichtbar machen.
+Bildung und Ausbildung,Weibliche Schulabgänger ohne Abschluss,,2023,INKAR,,Ermöglicht die Untersuchung geschlechtsspezifischer Unterschiede und ist damit unmittelbar für die Gender-Perspektive des Projekts relevant.
+Bildung und Ausbildung,Männliche Schulabgänger ohne Abschluss,,2023,INKAR,,Ermöglicht die Untersuchung geschlechtsspezifischer Unterschiede und ist damit unmittelbar für die Gender-Perspektive des Projekts relevant.
+Bildung und Ausbildung,Auszubildende,,2023,INKAR,,Bildungs- und Ausbildungsstrukturen können regionale Zukunftschancen sowie Unterschiede zwischen Frauen und Männern sichtbar machen.
+Bildung und Ausbildung,Weibliche Auszubildende,,2023,INKAR,,Ermöglicht die Untersuchung geschlechtsspezifischer Unterschiede und ist damit unmittelbar für die Gender-Perspektive des Projekts relevant.
+Bildung und Ausbildung,Männliche Auszubildende,,2023,INKAR,,Ermöglicht die Untersuchung geschlechtsspezifischer Unterschiede und ist damit unmittelbar für die Gender-Perspektive des Projekts relevant.
+Raumstruktur,Ländlichkeit,,2023,INKAR,,Beschreibt die räumliche Struktur und ermöglicht den Vergleich zwischen ländlich und stärker urban geprägten Regionen.
+Bevölkerung und Demografie,Bevölkerung in Mittelzentren,,2023,INKAR,,Beschreibt die demografische Struktur der Region und dient als Grundlage zur Einordnung regionaler Unterschiede.
+Bevölkerung und Demografie,Bevölkerung in Oberzentren,,2023,INKAR,,Beschreibt die demografische Struktur der Region und dient als Grundlage zur Einordnung regionaler Unterschiede.
+Raumstruktur,Einwohnerdichte,,2023,INKAR,,Beschreibt die räumliche Struktur und ermöglicht den Vergleich zwischen ländlich und stärker urban geprägten Regionen.
+Raumstruktur,Einwohner-Arbeitsplatz-Dichte,,2023,INKAR,,Beschreibt die räumliche Struktur und ermöglicht den Vergleich zwischen ländlich und stärker urban geprägten Regionen.

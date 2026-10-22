@@ -1,0 +1,5 @@
+.DS_Store
+**/.DS_Store
+**/.quarto/
+**/__pycache__/
+*.py[cod]

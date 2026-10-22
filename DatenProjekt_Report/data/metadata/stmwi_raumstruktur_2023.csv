@@ -1,0 +1,97 @@
+﻿ags;kreisname_stmwi;regierungsbezirk;lep_gebietskategorie;rmbh
+09161;Ingolstadt;Oberbayern;VR;Nein
+09162;München, Landeshauptstadt;Oberbayern;VR;Nein
+09163;Rosenheim, Stadt;Oberbayern;VR;Nein
+09171;Altötting;Oberbayern;LR;Nein
+09172;Berchtesgadener Land;Oberbayern;LR;Nein
+09173;Bad Tölz-Wolfratshausen;Oberbayern;LR;Nein
+09174;Dachau;Oberbayern;VR;Nein
+09175;Ebersberg;Oberbayern;VR;Nein
+09176;Eichstätt;Oberbayern;LR;Nein
+09177;Erding;Oberbayern;LR;Nein
+09178;Freising;Oberbayern;VR;Nein
+09179;Fürstenfeldbruck;Oberbayern;VR;Nein
+09180;Garmisch-Partenkirchen;Oberbayern;LR;Ja
+09181;Landsberg am Lech;Oberbayern;LR;Nein
+09182;Miesbach;Oberbayern;LR;Nein
+09183;Mühldorf a.Inn;Oberbayern;LR;Ja
+09184;München;Oberbayern;VR;Nein
+09185;Neuburg-Schrobenhausen;Oberbayern;LR;Nein
+09186;Pfaffenhofen a.d.Ilm;Oberbayern;LR;Nein
+09187;Rosenheim;Oberbayern;LR;Nein
+09188;Starnberg;Oberbayern;VR;Nein
+09189;Traunstein;Oberbayern;LR;Nein
+09190;Weilheim-Schongau;Oberbayern;LR;Nein
+09261;Landshut, Stadt;Niederbayern;LR;Nein
+09262;Passau, Stadt;Niederbayern;LR;Ja
+09263;Straubing;Niederbayern;LR;Nein
+09271;Deggendorf;Niederbayern;LR;Nein
+09272;Freyung-Grafenau;Niederbayern;LR;Ja
+09273;Kelheim;Niederbayern;LR;Nein
+09274;Landshut;Niederbayern;LR;Nein
+09275;Passau;Niederbayern;LR;Ja
+09276;Regen;Niederbayern;LR;Ja
+09277;Rottal-Inn;Niederbayern;LR;Ja
+09278;Straubing-Bogen;Niederbayern;LR;Nein
+09279;Dingolfing-Landau;Niederbayern;LR;Nein
+09361;Amberg;Oberpfalz;LR;Ja
+09362;Regensburg, Stadt;Oberpfalz;VR;Nein
+09363;Weiden i.d.OPf.;Oberpfalz;LR;Ja
+09371;Amberg-Sulzbach;Oberpfalz;LR;Ja
+09372;Cham;Oberpfalz;LR;Ja
+09373;Neumarkt i.d.OPf.;Oberpfalz;LR;Nein
+09374;Neustadt a.d.Waldnaab;Oberpfalz;LR;Ja
+09375;Regensburg;Oberpfalz;LR;Nein
+09376;Schwandorf;Oberpfalz;LR;Ja
+09377;Tirschenreuth;Oberpfalz;LR;Ja
+09461;Bamberg, Stadt;Oberfranken;VR;Nein
+09462;Bayreuth, Stadt;Oberfranken;LR;Ja
+09463;Coburg, Stadt;Oberfranken;LR;Ja
+09464;Hof, Stadt;Oberfranken;LR;Ja
+09471;Bamberg;Oberfranken;LR;Ja
+09472;Bayreuth;Oberfranken;LR;Ja
+09473;Coburg;Oberfranken;LR;Ja
+09474;Forchheim;Oberfranken;VR;Nein
+09475;Hof;Oberfranken;LR;Ja
+09476;Kronach;Oberfranken;LR;Ja
+09477;Kulmbach;Oberfranken;LR;Ja
+09478;Lichtenfels;Oberfranken;LR;Ja
+09479;Wunsiedel i.Fichtelgebirge;Oberfranken;LR;Ja
+09561;Ansbach, Stadt;Mittelfranken;LR;Ja
+09562;Erlangen;Mittelfranken;VR;Nein
+09563;Fürth, Stadt;Mittelfranken;VR;Nein
+09564;Nürnberg;Mittelfranken;VR;Nein
+09565;Schwabach;Mittelfranken;VR;Nein
+09571;Ansbach;Mittelfranken;LR;Ja
+09572;Erlangen-Höchstadt;Mittelfranken;VR;Nein
+09573;Fürth;Mittelfranken;VR;Nein
+09574;Nürnberger Land;Mittelfranken;VR;Nein
+09575;Neustadt a.d.Aisch-Bad Windsheim;Mittelfranken;LR;Ja
+09576;Roth;Mittelfranken;LR;Ja
+09577;Weißenburg-Gunzenhausen;Mittelfranken;LR;Ja
+09661;Aschaffenburg, Stadt;Unterfranken;VR;Ja
+09662;Schweinfurt, Stadt;Unterfranken;LR;Ja
+09663;Würzburg, Stadt;Unterfranken;VR;Nein
+09671;Aschaffenburg;Unterfranken;VR;Ja
+09672;Bad Kissingen;Unterfranken;LR;Ja
+09673;Rhön-Grabfeld;Unterfranken;LR;Ja
+09674;Haßberge;Unterfranken;LR;Ja
+09675;Kitzingen;Unterfranken;LR;Ja
+09676;Miltenberg;Unterfranken;VR;Ja
+09677;Main-Spessart;Unterfranken;LR;Ja
+09678;Schweinfurt;Unterfranken;LR;Ja
+09679;Würzburg;Unterfranken;VR;Ja
+09761;Augsburg, Stadt;Schwaben;VR;Nein
+09762;Kaufbeuren;Schwaben;LR;Nein
+09763;Kempten (Allgäu);Schwaben;LR;Nein
+09764;Memmingen;Schwaben;LR;Nein
+09771;Aichach-Friedberg;Schwaben;LR;Nein
+09772;Augsburg;Schwaben;VR;Nein
+09773;Dillingen a.d.Donau;Schwaben;LR;Ja
+09774;Günzburg;Schwaben;LR;Nein
+09775;Neu-Ulm;Schwaben;VR;Nein
+09776;Lindau (Bodensee);Schwaben;LR;Nein
+09777;Ostallgäu;Schwaben;LR;Nein
+09778;Unterallgäu;Schwaben;LR;Nein
+09779;Donau-Ries;Schwaben;LR;Nein
+09780;Oberallgäu;Schwaben;LR;Nein

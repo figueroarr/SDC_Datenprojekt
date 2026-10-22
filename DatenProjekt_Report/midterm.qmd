@@ -1,0 +1,218 @@
+---
+lang: de
+format:
+  revealjs:
+    css: midterm.css
+    slide-number: "c/t"
+    theme: simple
+    transition: fade
+    center: false
+    width: 1600
+    height: 900
+    margin: 0.08
+---
+
+## Wer profitiert vom Strukturwandel? {.title-slide}
+
+<p class="kicker">DATENPROJEKT · MIDTERM · WS 26/27</p>
+
+<p class="subtitle">Eine datenfeministische Analyse der Geschlechterverhältnisse in bayerischen Regionen</p>
+
+<p class="byline">Renata Figueroa</p>
+
+
+## Warum diese Frage?
+
+<div class="lead">Strukturwandel verändert Arbeit, Wirtschaft und Lebensbedingungen. Doch wer profitiert davon und wessen Perspektive bleibt in den Daten unsichtbar?</div>
+
+<div class="card-grid">
+<div class="card">
+<span class="card-number">01</span>
+<h3>Arbeit</h3>
+<p>Beschäftigung, Ausbildung und Einkommen sind regional unterschiedlich verteilt.</p>
+</div>
+<div class="card">
+<span class="card-number">02</span>
+<h3>Geschlecht</h3>
+<p>Frauen und Männer können von wirtschaftlichen Veränderungen unterschiedlich betroffen sein.</p>
+</div>
+<div class="card">
+<span class="card-number">03</span>
+<h3>Sichtbarkeit</h3>
+<p>Was nicht erhoben wird, kann in einer datenbasierten Bewertung leicht fehlen.</p>
+</div>
+</div>
+
+
+## Unsere Forschungsfrage {.question-slide}
+
+<div class="question-label">HAUPTFRAGE</div>
+
+<div class="big-question">Inwiefern bilden verfügbare Regionaldaten geschlechtsspezifische Unterschiede in bayerischen Regionen ab – und welche relevanten Dimensionen bleiben unsichtbar?</div>
+
+<div class="small-question"><strong>Unterfragen</strong><br>
+Welche Unterschiede zeigen sich bei Bevölkerung, Bildung, Ausbildung und Arbeitsmarkt? Welche Themen wie Sorgearbeit werden in den verfügbaren Daten kaum erfasst?</div>
+
+
+## Datenfeministische Perspektive
+
+<div class="two-columns">
+<div class="panel panel-purple">
+<span class="eyebrow">WAS WIRD GEZÄHLT?</span>
+<h3>Vorhandene Indikatoren</h3>
+<p>Zum Beispiel Bevölkerung nach Geschlecht, Bildungsabschlüsse, Auszubildende und Wanderungsbewegungen.</p>
+</div>
+<div class="panel panel-rose">
+<span class="eyebrow">WAS FEHLT?</span>
+<h3>Unsichtbare Arbeit</h3>
+<p>Sorge- und Pflegearbeit, Mental Load und unbezahlte Tätigkeiten sind in amtlichen Regionaldaten nur begrenzt sichtbar.</p>
+</div>
+</div>
+
+<p class="footnote">Leitgedanke nach D’Ignazio &amp; Klein: nicht nur fragen, was gezählt wird, sondern auch, was ungezählt bleibt.</p>
+
+
+## Untersuchungsraum & Datenbasis
+
+<div class="stat-row">
+<div class="stat"><strong>96</strong><span>Landkreise und kreisfreie Städte in Bayern</span></div>
+<div class="stat"><strong>2023</strong><span>Bezugsjahr der aufbereiteten INKAR-Daten</span></div>
+<div class="stat"><strong>AGS</strong><span>Gemeinsamer Schlüssel zum Zusammenführen der Daten</span></div>
+</div>
+
+<div class="lead smaller">Die Daten werden mit regionalen Informationen zur Raumstruktur ergänzt – darunter Regierungsbezirk, LEP-Gebietskategorie und „Raum mit besonderem Handlungsbedarf“.</div>
+
+<p class="footnote">Die aktuelle Datengrundlage deckt bayerische Kreise ab. Die konkrete Abgrenzung der im Projekt betrachteten Strukturwandelregionen wird in der Auswertung transparent gemacht.</p>
+
+
+## Welche Rohdaten nutze ich – und warum?
+
+<div class="card-grid two">
+<div class="card">
+<span class="eyebrow">INKAR · DATENEXPORT</span>
+<h3><code>Tabelle 20261007.csv</code></h3>
+<p>Enthält regionale Indikatoren für die Kreise. In der aktuellen Aufbereitung beziehen sich die Daten auf 2023 und umfassen unter anderem Bevölkerung, Wanderung, Bildung und Ausbildung.</p>
+</div>
+<div class="card">
+<span class="eyebrow">INKAR · METADATEN</span>
+<h3><code>inkar-2.xls</code></h3>
+<p>Erklärt Indikatornamen, Einheiten, Berechnungen und Hinweise. So kann ich prüfen, was ein Wert genau bedeutet und ob zwei Werte sinnvoll vergleichbar sind.</p>
+</div>
+</div>
+
+<div class="callout-data">Ich habe INKAR gewählt, weil es vergleichbare Kreisdaten für Bayern bereitstellt und einige Indikatoren nach Geschlecht aufschlüsselt. Damit kann ich regionale Unterschiede untersuchen, ohne zu behaupten, dass jeder Indikator Geschlechtergerechtigkeit direkt misst.</div>
+
+<p class="footnote">Grenze der Daten: INKAR weist Geschlecht bei bestimmten Indikatoren binär aus; „divers“ oder „unbekannt“ werden laut Metadaten teilweise auf weiblich und männlich umgeschlüsselt. Diese Einschränkung gehört zur kritischen Einordnung.</p>
+
+
+## Rohdaten für Raumstruktur und Karte
+
+<div class="two-columns">
+<div class="panel panel-purple">
+<span class="eyebrow">VERWALTUNGSGEOGRAFIE</span>
+<h3><code>DE_VG250.gpkg</code></h3>
+<p>Enthält die Kreisgrenzen. Skript 06 filtert Bayern über den AGS, verbindet die Geometrien mit dem geprüften Datensatz und erzeugt daraus eine GeoJSON-Karte.</p>
+<p><strong>Warum diese Datei?</strong> Die Kennziffer AGS verbindet die Zahlen mit dem passenden Kreis auf der Karte.</p>
+</div>
+<div class="panel panel-rose">
+<span class="eyebrow">REGIONALE EINORDNUNG</span>
+<h3>StMWi-Raumstruktur</h3>
+<p>Skript 03 ergänzt Regierungsbezirk, ländlichen Raum (LR), Verdichtungsraum (VR) und „Raum mit besonderem Handlungsbedarf“ (RmbH) anhand der dokumentierten StMWi-Abgrenzung.</p>
+<p><strong>Warum ergänzen?</strong> So lassen sich Kreise nach ihrer räumlichen Lage einordnen und vergleichen.</p>
+</div>
+</div>
+
+<p class="footnote">Im Ordner <code>RawData</code> liegen außerdem zwei Excel-Tabellen. Die hier vorgestellten Skripte lesen diese derzeit nicht ein; sie sind daher noch keine Grundlage der gezeigten Aufbereitung.</p>
+
+
+## Skripte 01–03: Daten vorbereiten
+
+<div class="card-grid two script-grid">
+<div class="card script-card">
+<span class="script-name">01 · bereinige_inkar.py</span>
+<h3>INKAR bereinigen</h3>
+<p>Liest den CSV-Export ein, vereinheitlicht die AGS-Kennziffern und wandelt deutsche Zahlenformate in Zahlen um. Prüft unter anderem fehlende Werte und doppelte Kennziffern.</p>
+<p class="script-output"><strong>Ergebnis:</strong> <code>inkar_bayern_2023_bereinigt.csv</code></p>
+</div>
+<div class="card script-card">
+<span class="script-name">02 · erstelle_metadaten.py</span>
+<h3>Listen anlegen</h3>
+<p>Erstellt aus den bereinigten Daten eine Indikatorenliste und eine Kreisliste. Die Listen helfen, Messwerte und untersuchte Kreise geordnet weiterzuverarbeiten.</p>
+<p class="script-output"><strong>Ergebnis:</strong> <code>indikatorenliste.csv</code> + <code>kreisliste.csv</code></p>
+</div>
+<div class="card script-card">
+<span class="script-name">02b · ergaenze_indikatorenliste.py</span>
+<h3>Indikatoren erklären</h3>
+<p>Gleicht CSV und INKAR-Metadaten ab und ergänzt Einheit, Bezugsjahr, Geschlechtsbezug, Berechnung und Datenhinweise. Es prüft auch, ob Indikatoren vollständig zugeordnet sind.</p>
+<p class="script-output"><strong>Ergebnis:</strong> <code>indikatorenliste_final.csv</code></p>
+</div>
+<div class="card script-card">
+<span class="script-name">03 · erstelle_stmwi_raumstruktur.py</span>
+<h3>Regionen einordnen</h3>
+<p>Ergänzt die Kreisliste um Regierungsbezirk, LEP-Kategorie (LR/VR) und RmbH. Das Skript prüft, ob alle Kreise eine Zuordnung erhalten.</p>
+<p class="script-output"><strong>Ergebnis:</strong> <code>stmwi_raumstruktur_2023.csv</code></p>
+</div>
+</div>
+
+<p class="footnote">Die Zwischenergebnisse werden im Projektordner <code>data/processed</code> beziehungsweise <code>data/metadata</code> abgelegt. <code>config.py</code> bündelt die verwendeten Ordnerpfade.</p>
+
+
+## Skripte 04–06: Zusammenführen, prüfen, kartieren
+
+<div class="card-grid script-grid final-script-grid">
+<div class="card script-card">
+<span class="script-name">04 · erstelle_master.py</span>
+<h3>Datensätze verbinden</h3>
+<p>Führt bereinigte INKAR-Werte, Kreisliste und Raumstruktur über die fünfstellige AGS-Kennziffer zusammen. Prüft auf doppelte Schlüssel und fehlende Zuordnungen.</p>
+<p class="script-output"><strong>Ergebnis:</strong> <code>inkar_bayern_2023_master.csv</code></p>
+</div>
+<div class="card script-card">
+<span class="script-name">05 · validieren_master.py</span>
+<h3>Vollständigkeit sichern</h3>
+<p>Prüft unter anderem, ob 96 bayerische Kreise enthalten sind, die AGS eindeutig sind und 25 kreisfreie Städte sowie 71 Landkreise vorliegen.</p>
+<p class="script-output"><strong>Ergebnis:</strong> <code>inkar_bayern_2023_master_validiert.csv</code></p>
+</div>
+<div class="card script-card">
+<span class="script-name">06 · erstelle_geojson.py</span>
+<h3>Karte vorbereiten</h3>
+<p>Verbindet die geprüften Werte mit den Kreisgrenzen, kontrolliert 96 Geometrien, vereinfacht die Grenzen und exportiert sie als GeoJSON in WGS84.</p>
+<p class="script-output"><strong>Ergebnis:</strong> <code>bayern_kreise_2023.geojson</code></p>
+</div>
+</div>
+
+<p class="footnote">So entsteht eine nachvollziehbare Verarbeitungskette: Rohdaten → bereinigte Tabellen → geprüfter Master → Kartengrundlage.</p>
+
+
+## Zwischenstand & nächste Schritte
+
+<div class="two-columns">
+<div class="panel panel-purple">
+<span class="eyebrow">BEREITS VORBEREITET</span>
+<ul>
+<li>INKAR-Daten für Bayern bereinigt</li>
+<li>Metadaten und Raumstruktur zusammengeführt</li>
+<li>Master-Datensatz validiert</li>
+<li>Geodaten für eine Kreiskarte vorbereitet</li>
+</ul>
+</div>
+<div class="panel panel-rose">
+<span class="eyebrow">ALS NÄCHSTES</span>
+<ul>
+<li>Indikatoren und Geschlechterbezug systematisch prüfen</li>
+<li>Regionale Vergleiche durchführen</li>
+<li>Ergebnisse als Karten und Diagramme zeigen</li>
+<li>Datenlücken kritisch einordnen</li>
+</ul>
+</div>
+</div>
+
+
+## Was bedeutet „profitieren“?
+
+<div class="closing-question">Wirtschaftlicher Wandel ist mehr als Wachstum.</div>
+
+<p class="lead">Die Analyse verbindet regionale Kennzahlen mit der Frage, welche Lebensbereiche und Personengruppen die Datengrundlage sichtbar macht – und welche nicht.</p>
+
+<div class="end-mark">FRAGEN &amp; DISKUSSION</div>
+
+<p class="footnote">Datenbasis: INKAR (BBSR), Bezugsjahr 2023; regionale Zuordnungen und Raumstruktur: Projektaufbereitung auf Basis der dokumentierten Quellen.</p>
