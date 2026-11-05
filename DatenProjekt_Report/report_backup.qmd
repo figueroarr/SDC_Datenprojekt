@@ -1,0 +1,220 @@
+---
+title: "Wer profitiert vom Strukturwandel?"
+author: "Renata Figueroa"
+date: "2026–2027"
+lang: de
+format:
+  html:
+    css: styles.css
+    toc: false
+    number-sections: false
+    page-layout: article
+    theme: none
+    linkcolor: "#800080"
+execute:
+  echo: true
+  warning: false
+  eval: false
+---
+
+```{=html}
+<div class="cover">
+  <div class="cover-meta">
+    <span>Datenprojekt – WS 26/27</span>
+    <span>Renata Figueroa</span>
+  </div>
+  <div class="cover-text">
+    <h1 class="cover-title">
+      <span class="title-line">WER PROFITTIERT</span>
+      <span class="title-line">VOM STRUKTURWANDEL?</span>
+    </h1>
+    <p class="cover-subtitle">
+      Eine <b>datenfeministische</b> Analyse der Geschlechterverhältnisse in deutschen Strukturwandelregionen.
+    </p>
+  </div>
+</div>
+```
+
+```{=html}
+<nav class="section-nav" aria-label="Abschnitte des Berichts">
+  <a href="#forschungsfrage"><span class="nav-number">01</span><span>Forschungsfrage</span></a>
+  <a href="#theoretischer-rahmen-datenfeminismus"><span class="nav-number">02</span><span>Rahmen</span></a>
+  <a href="#problematik-der-datenlücken"><span class="nav-number">03</span><span>Daten</span></a>
+  <a href="#visualisierungskonzept"><span class="nav-number">04</span><span>Visualisierung</span></a>
+  <a href="#projektphasen"><span class="nav-number">05</span><span>Projektphasen</span></a>
+  <a href="#midterm"><span class="nav-number">06</span><span>Midterm</span></a>
+</nav>
+<script>
+(() => {
+  const nav = document.querySelector('.section-nav');
+  if (!nav) return;
+  const navStart = nav.getBoundingClientRect().top + window.scrollY;
+  let compact = false;
+  const updateNav = () => {
+    const scrollPosition = window.scrollY;
+    if (!compact && scrollPosition > navStart + 120) compact = true;
+    else if (compact && scrollPosition < 24) compact = false;
+    nav.classList.toggle('is-compact', compact);
+  };
+  window.addEventListener('scroll', updateNav, { passive: true });
+  updateNav();
+})();
+</script>
+```
+
+::: {.page-section .section-light .intro-panel}
+## Kurzabstract
+
+Der Strukturwandel verändert Wirtschaft, Arbeitsmarkt und Lebensbedingungen in zahlreichen Regionen Deutschlands. Politische Maßnahmen orientieren sich dabei überwiegend an wirtschaftlichen Kennzahlen wie Beschäftigung, Investitionen oder Produktivität — geschlechtsspezifische Unterschiede werden hingegen häufig nur am Rande berücksichtigt. Ziel dieses Projekts ist es, Strukturwandelregionen aus einer datenfeministischen Perspektive zu analysieren. Mithilfe regionaler Open-Data-Datensätze werden Unterschiede zwischen Frauen und Männern hinsichtlich Arbeitsmarkt, Einkommen, Bildung und Demografie untersucht und visualisiert. Gleichzeitig wird kritisch hinterfragt, welche Dimensionen von Geschlechtergerechtigkeit durch bestehende Datensätze nicht erfasst werden.
+:::
+
+:::: {#forschungsfrage .page-section .section-purple .question-section}
+::: {.question-primary}
+## Forschungsfrage {#hauptfrage}
+
+**Hauptfrage**
+Inwiefern bilden verfügbare regionale Daten geschlechtsspezifische Unterschiede in deutschen Strukturwandelregionen ab, und welche relevanten Dimensionen bleiben aus datenfeministischer Perspektive unsichtbar?
+:::
+
+::: {.question-followup}
+### Unterfragen
+
+- Welche Unterschiede bestehen zwischen Frauen und Männern hinsichtlich Beschäftigung, Einkommen und Bildung?
+- Welche Regionen weisen besonders große geschlechtsspezifische Unterschiede auf?
+- Welche relevanten Gleichstellungsdimensionen (z. B. Sorgearbeit, Mental Load, Mobilität) werden in den verfügbaren Datensätzen nicht oder nur unzureichend erfasst?
+- Welche Auswirkungen haben diese Datenlücken auf die Bewertung des Strukturwandels?
+:::
+::::
+
+::: {.page-section .section-light .objectives-section}
+## Ziele des Projekts
+
+1. **Analyse** geschlechtsspezifischer Unterschiede in deutschen Strukturwandelregionen anhand regionaler Open-Data-Datensätze.
+2. **Visualisierung** räumlicher Muster und regionaler Unterschiede mithilfe interaktiver Karten und Diagramme.
+3. **Kritische Bewertung** der vorhandenen Datenbasis aus einer datenfeministischen Perspektive, um sichtbar zu machen, welche Aspekte von Geschlechtergerechtigkeit in offiziellen Datensätzen fehlen.
+:::
+
+::: {.page-section .section-light .theory-section}
+## Theoretischer Rahmen: Datenfeminismus
+
+Das Projekt lässt sich als kritische Datenanalyse verstehen, bei der zwei Ebenen unterschieden werden: die quantitative Ebene, auf der geschlechtsspezifische Unterschiede anhand vorhandener Indikatoren analysiert und regional verglichen werden, sowie die reflexive Ebene, auf der hinterfragt wird, welche Kategorien und Lebensbereiche in diesen Datensätzen systematisch fehlen. Datenfeministische Prinzipien wie *„Count what counts, but also ask what's not counted"* oder *„Elevate emotion and embodiment"* (D'Ignazio & Klein) dienen dabei als Analyseraster.
+:::
+
+:::: {.page-section .section-rose .data-section}
+## Problematik der Datenlücken
+
+::: {.callout-datagap}
+<span class="eyebrow">Zentrale Beobachtung</span>
+Amtliche Statistiken erfassen Geschlecht überwiegend binär und bilden Sorge- und Pflegearbeit, Mental Load oder Ehrenamt kaum ab — obwohl diese Tätigkeiten überwiegend von Frauen geleistet werden und für die Bewertung des Strukturwandels zentral wären.
+:::
+
+### Matrix: Vorhandene vs. fehlende Daten
+
+| Bereich | Vorhandene Daten | Fehlende Daten |
+|---|---|---|
+| Einkommen | Ja | – |
+| Beschäftigung | Ja | – |
+| Mobilität | Teilweise | – |
+| Care-Arbeit | – | Ja |
+| Mental Load | – | Ja |
+| Ehrenamt | – | Ja |
+| Pflegearbeit | – | Ja |
+
+## Analytischer Ansatz
+
+Zunächst werden alle relevanten, öffentlich verfügbaren Datensätze gesichtet und in der obigen Matrix erfasst. Auf Basis der vorhandenen Daten wird eine deskriptive und regionale Vergleichsanalyse durchgeführt. Für die als fehlend identifizierten Bereiche wird kein Ersatzdatensatz konstruiert — die Lücke selbst wird zum Gegenstand der Analyse.
+
+## Datenquellen
+
+| Quelle | Enthält |
+|---|---|
+| INKAR | Bevölkerung, Bildung, Arbeitsmarkt, Einkommen, Demografie |
+| Destatis (GENESIS) | Erwerbstätigkeit, Gender Pay Gap, Bildungsindikatoren |
+| Bundesagentur für Arbeit | Beschäftigung nach Geschlecht und Region |
+| Zensus | Haushalte, Familienstrukturen, Pendeln |
+| Bundesstiftung Gleichstellung | Theoretische Grundlage und Einordnung |
+::::
+
+```{python}
+#| label: setup
+#| eval: false
+# Grundgerüst für den Datenimport — Pakete und Pfade bei Bedarf anpassen
+import pandas as pd
+import geopandas as gpd
+
+inkar = pd.read_csv("data/inkar.csv")
+destatis = pd.read_csv("data/destatis_gpg.csv")
+regionen = gpd.read_file("data/strukturwandelregionen.geojson")
+```
+
+::: {.page-section .section-light .visual-section}
+## Visualisierungskonzept
+
+**Karten:** Geschlechterunterschiede nach Region · Beschäftigungsquote · Einkommen · Teilzeitquote · Frauenanteil in verschiedenen Branchen
+
+**Diagramme:** Balkendiagramme · Liniendiagramme · Heatmaps · Scatterplots · Korrelationsmatrix
+
+**Interaktives Dashboard:** Regionsauswahl · Indikatorenvergleich · Filter nach Geschlecht · zeitliche Entwicklung
+
+<div class="visual-placeholder-grid" aria-label="Platzhalter für spätere Visualisierungen">
+  <div class="visual-placeholder"><span>Platzhalter 01</span><strong>Regionale Karte</strong><small>Hier folgt die interaktive Karte.</small></div>
+  <div class="visual-placeholder"><span>Platzhalter 02</span><strong>Vergleichsdiagramm</strong><small>Hier folgen Kennzahlen und Vergleiche.</small></div>
+  <div class="visual-placeholder"><span>Platzhalter 03</span><strong>Datenlücken</strong><small>Hier folgt die Visualisierung fehlender Daten.</small></div>
+</div>
+:::
+
+```{python}
+#| label: fig-map-placeholder
+#| eval: false
+#| fig-cap: "Platzhalter — reale Karte folgt aus Phase III"
+regionen.plot(column="gender_pay_gap", cmap="Purples", legend=True)
+```
+
+::: {.page-section .section-purple-light .phases-section}
+## Projektphasen
+
+| Phase | Zeitraum | Inhalt |
+|---|---|---|
+| I | Woche 1–2 | Einarbeitung in Datenfeminismus, Literaturrecherche, Zugang zu Datenquellen |
+| II | Woche 3–5 | Datenbeschaffung, -bereinigung, Aufbau der Matrix |
+| III | Woche 6–8 | Explorative Analyse, erste Karten und Diagramme |
+| IV | Woche 9 | Zwischenstandspräsentation |
+| V | Woche 10–11 | Entwicklung des interaktiven Dashboards |
+| VI | Woche 12–13 | Kritische Einordnung, Vergleich mit BSG-Studie |
+| VII | Woche 14 | Bericht & Repository fertigstellen, Präsentation |
+:::
+
+::: {#midterm .page-section .section-purple .midterm-section}
+## Midterm-Präsentation
+
+<div class="midterm-placeholder">
+  <span class="eyebrow">Platzhalter</span>
+  <h3>Hier wird die Midterm-Präsentation eingebunden</h3>
+  <p>Der Menüpunkt „06 Midterm“ führt direkt zu diesem Bereich. Hier können später Folien, ein Video oder eine Präsentationsdatei ergänzt werden.</p>
+</div>
+:::
+
+::: {.page-section .section-light .requirements-section}
+## Anforderungen
+
+| Bereich | Anforderung |
+|---|---|
+| Datenzugang | INKAR, GENESIS, Bundesagentur für Arbeit, Zensusdatenbank |
+| Datenaufbereitung | Bereinigung und Harmonisierung heterogener Datensätze |
+| Statistische Methoden | Deskriptive Statistik, Regionalvergleiche, Korrelationsanalysen |
+| Technische Umsetzung | Python (pandas, geopandas, plotly) oder Power BI/Tableau |
+| Geodaten | Shapefiles/GeoJSON der Strukturwandelregionen |
+| Theoretischer Rahmen | Datenfeminismus (D'Ignazio & Klein) |
+| Zeitbudget | ca. 120 Stunden über ein Semester (4 ECTS) |
+:::
+
+::: {.page-section .section-rose-light .closing-section}
+## Zusammenfassung der Quelle
+
+Die Studie der Bundesstiftung Gleichstellung untersucht die Geschlechterverhältnisse in deutschen Strukturwandelregionen und zeigt, dass wirtschaftliche Transformationsprozesse Frauen und Männer unterschiedlich betreffen. Sie weist zudem auf grundlegende Probleme der Datenlage hin: Amtliche Statistiken erfassen Geschlecht überwiegend binär, und es fehlt an intersektionalen Daten. Besonders aufschlussreich ist die eigene Textanalyse der Studie — der 278-seitige KWSB-Abschlussbericht von 2019 erwähnt Geschlechterfragen nur an sehr wenigen Stellen. Diese Beobachtung liefert die methodische Vorlage für den datenfeministischen Ansatz dieses Projekts.
+
+## Quellen {.quellen}
+
+- D'Ignazio, C. & Klein, L. (2020). *Data Feminism*. MIT Press. <https://data-feminism.mitpress.mit.edu/>
+- Bundesstiftung Gleichstellung (2025). *Geschlechterverhältnisse in Strukturwandelregionen*. <https://www.bundesstiftung-gleichstellung.de/wp-content/uploads/2025/09/250910_BSG_Studie_Geschlechterverhaeltnisse_Strukturwandelregionen_web.pdf>
+:::

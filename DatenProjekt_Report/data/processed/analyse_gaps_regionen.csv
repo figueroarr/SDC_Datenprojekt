@@ -1,0 +1,118 @@
+﻿regionstyp;mittelwert;median;n;merkmal;familie
+LR;-1.4660869565217391;-0.25;69;lep_gebietskategorie;Außenwanderungssaldo
+VR;-7.14111111111111;-1.25;27;lep_gebietskategorie;Außenwanderungssaldo
+LR;433.59420289855075;580.0;69;lep_gebietskategorie;Bevölkerung
+VR;3108.1481481481483;1696.0;27;lep_gebietskategorie;Bevölkerung
+LR;-2.9715942028985505;-4.18;69;lep_gebietskategorie;Binnenwanderungssaldo
+VR;3.197777777777778;-3.19;27;lep_gebietskategorie;Binnenwanderungssaldo
+LR;-13.774057971014493;-9.619999999999997;69;lep_gebietskategorie;Fortzugsrate
+VR;-21.492962962962967;-14.540000000000006;27;lep_gebietskategorie;Fortzugsrate
+LR;-6.955942028985507;-7.109999999999999;69;lep_gebietskategorie;Schulabgänger mit Hauptschulabschluss
+VR;-4.506666666666667;-4.59;27;lep_gebietskategorie;Schulabgänger mit Hauptschulabschluss
+LR;5.999552238805971;5.920000000000002;67;lep_gebietskategorie;Schulabgänger mit allgemeiner Hochschulreife
+VR;5.8607407407407415;6.280000000000001;27;lep_gebietskategorie;Schulabgänger mit allgemeiner Hochschulreife
+LR;3.583913043478261;3.729999999999997;69;lep_gebietskategorie;Schulabgänger mit mittlerem Abschluss
+VR;0.9707407407407403;1.1999999999999957;27;lep_gebietskategorie;Schulabgänger mit mittlerem Abschluss
+LR;-2.4546376811594204;-2.33;69;lep_gebietskategorie;Schulabgänger ohne Abschluss
+VR;-2.327037037037037;-2.210000000000001;27;lep_gebietskategorie;Schulabgänger ohne Abschluss
+LR;-18.21159420289855;-15.759999999999998;69;lep_gebietskategorie;Zuzugsrate
+VR;-25.437037037037037;-18.919999999999995;27;lep_gebietskategorie;Zuzugsrate
+Ja;-1.3385714285714287;-0.33000000000000007;42;rmbh;Außenwanderungssaldo
+Nein;-4.402777777777778;-0.2550000000000001;54;rmbh;Außenwanderungssaldo
+Ja;677.5952380952381;684.5;42;rmbh;Bevölkerung
+Nein;1581.0925925925926;947.0;54;rmbh;Bevölkerung
+Ja;-3.097619047619047;-4.025;42;rmbh;Binnenwanderungssaldo
+Nein;0.2111111111111111;-3.6799999999999997;54;rmbh;Binnenwanderungssaldo
+Ja;-12.282857142857143;-7.885000000000002;42;rmbh;Fortzugsrate
+Nein;-18.793333333333333;-13.100000000000001;54;rmbh;Fortzugsrate
+Ja;-6.240952380952381;-5.894999999999999;42;rmbh;Schulabgänger mit Hauptschulabschluss
+Nein;-6.287407407407407;-5.9399999999999995;54;rmbh;Schulabgänger mit Hauptschulabschluss
+Ja;6.71425;6.24;40;rmbh;Schulabgänger mit allgemeiner Hochschulreife
+Nein;5.400740740740741;5.585;54;rmbh;Schulabgänger mit allgemeiner Hochschulreife
+Ja;2.5195238095238093;2.469999999999999;42;rmbh;Schulabgänger mit mittlerem Abschluss
+Nein;3.1051851851851855;2.7850000000000037;54;rmbh;Schulabgänger mit mittlerem Abschluss
+Ja;-2.672142857142857;-2.9099999999999997;42;rmbh;Schulabgänger ohne Abschluss
+Nein;-2.2216666666666667;-1.8650000000000004;54;rmbh;Schulabgänger ohne Abschluss
+Ja;-16.718095238095238;-13.694999999999997;42;rmbh;Zuzugsrate
+Nein;-22.985925925925926;-18.44;54;rmbh;Zuzugsrate
+Kreisfreie Stadt;-6.814;-1.8499999999999996;25;kreistyp;Außenwanderungssaldo
+Landkreis;-1.7411267605633804;-0.16000000000000014;71;kreistyp;Außenwanderungssaldo
+Kreisfreie Stadt;2906.36;1224.0;25;kreistyp;Bevölkerung
+Landkreis;579.9859154929577;441.0;71;kreistyp;Bevölkerung
+Kreisfreie Stadt;2.1972;-2.79;25;kreistyp;Binnenwanderungssaldo
+Landkreis;-2.445492957746479;-4.24;71;kreistyp;Binnenwanderungssaldo
+Kreisfreie Stadt;-22.2388;-16.86;25;kreistyp;Fortzugsrate
+Landkreis;-13.72887323943662;-9.579999999999998;71;kreistyp;Fortzugsrate
+Kreisfreie Stadt;-6.0076;-5.6899999999999995;25;kreistyp;Schulabgänger mit Hauptschulabschluss
+Landkreis;-6.358450704225352;-6.350000000000001;71;kreistyp;Schulabgänger mit Hauptschulabschluss
+Kreisfreie Stadt;8.2588;7.890000000000001;25;kreistyp;Schulabgänger mit allgemeiner Hochschulreife
+Landkreis;5.126666666666667;5.459999999999999;69;kreistyp;Schulabgänger mit allgemeiner Hochschulreife
+Kreisfreie Stadt;0.46280000000000016;0.4000000000000057;25;kreistyp;Schulabgänger mit mittlerem Abschluss
+Landkreis;3.689154929577465;3.729999999999997;71;kreistyp;Schulabgänger mit mittlerem Abschluss
+Kreisfreie Stadt;-2.716;-2.5700000000000003;25;kreistyp;Schulabgänger ohne Abschluss
+Landkreis;-2.3140845070422538;-2.1199999999999997;71;kreistyp;Schulabgänger ohne Abschluss
+Kreisfreie Stadt;-26.856399999999997;-23.310000000000002;25;kreistyp;Zuzugsrate
+Landkreis;-17.915352112676057;-14.729999999999997;71;kreistyp;Zuzugsrate
+Mittelfranken;-3.4091666666666662;-0.885;12;regierungsbezirk;Außenwanderungssaldo
+Niederbayern;-3.4274999999999998;0.3250000000000002;12;regierungsbezirk;Außenwanderungssaldo
+Oberbayern;-0.6008695652173913;-0.4900000000000002;23;regierungsbezirk;Außenwanderungssaldo
+Oberfranken;-7.132307692307692;-1.25;13;regierungsbezirk;Außenwanderungssaldo
+Oberpfalz;-5.334999999999999;-1.5100000000000002;10;regierungsbezirk;Außenwanderungssaldo
+Schwaben;-0.45857142857142874;1.2049999999999996;14;regierungsbezirk;Außenwanderungssaldo
+Unterfranken;-3.8016666666666663;-0.56;12;regierungsbezirk;Außenwanderungssaldo
+Mittelfranken;1860.5833333333333;970.0;12;regierungsbezirk;Bevölkerung
+Niederbayern;-56.083333333333336;23.0;12;regierungsbezirk;Bevölkerung
+Oberbayern;2317.695652173913;1048.0;23;regierungsbezirk;Bevölkerung
+Oberfranken;1030.6923076923076;942.0;13;regierungsbezirk;Bevölkerung
+Oberpfalz;252.3;217.0;10;regierungsbezirk;Bevölkerung
+Schwaben;648.1428571428571;669.5;14;regierungsbezirk;Bevölkerung
+Unterfranken;1156.75;739.0;12;regierungsbezirk;Bevölkerung
+Mittelfranken;-0.27666666666666634;-2.78;12;regierungsbezirk;Binnenwanderungssaldo
+Niederbayern;-0.5891666666666671;-2.5150000000000006;12;regierungsbezirk;Binnenwanderungssaldo
+Oberbayern;-2.991739130434783;-3.79;23;regierungsbezirk;Binnenwanderungssaldo
+Oberfranken;0.3746153846153851;-4.8100000000000005;13;regierungsbezirk;Binnenwanderungssaldo
+Oberpfalz;-0.61;-3.9400000000000004;10;regierungsbezirk;Binnenwanderungssaldo
+Schwaben;-2.448571428571429;-3.78;14;regierungsbezirk;Binnenwanderungssaldo
+Unterfranken;-0.3324999999999991;-4.459999999999999;12;regierungsbezirk;Binnenwanderungssaldo
+Mittelfranken;-15.188333333333334;-9.61;12;regierungsbezirk;Fortzugsrate
+Niederbayern;-17.57166666666667;-11.889999999999997;12;regierungsbezirk;Fortzugsrate
+Oberbayern;-17.362608695652174;-13.160000000000004;23;regierungsbezirk;Fortzugsrate
+Oberfranken;-15.953846153846154;-7.380000000000003;13;regierungsbezirk;Fortzugsrate
+Oberpfalz;-15.211000000000002;-11.384999999999998;10;regierungsbezirk;Fortzugsrate
+Schwaben;-15.29142857142857;-13.929999999999993;14;regierungsbezirk;Fortzugsrate
+Unterfranken;-13.722499999999998;-6.289999999999999;12;regierungsbezirk;Fortzugsrate
+Mittelfranken;-4.9383333333333335;-5.015000000000001;12;regierungsbezirk;Schulabgänger mit Hauptschulabschluss
+Niederbayern;-7.956666666666666;-7.395;12;regierungsbezirk;Schulabgänger mit Hauptschulabschluss
+Oberbayern;-6.292608695652174;-5.57;23;regierungsbezirk;Schulabgänger mit Hauptschulabschluss
+Oberfranken;-6.285384615384615;-5.389999999999999;13;regierungsbezirk;Schulabgänger mit Hauptschulabschluss
+Oberpfalz;-5.394;-6.205000000000002;10;regierungsbezirk;Schulabgänger mit Hauptschulabschluss
+Schwaben;-7.023571428571429;-7.479999999999999;14;regierungsbezirk;Schulabgänger mit Hauptschulabschluss
+Unterfranken;-5.6825;-6.3999999999999995;12;regierungsbezirk;Schulabgänger mit Hauptschulabschluss
+Mittelfranken;5.879166666666666;5.419999999999999;12;regierungsbezirk;Schulabgänger mit allgemeiner Hochschulreife
+Niederbayern;5.825833333333333;5.294999999999998;12;regierungsbezirk;Schulabgänger mit allgemeiner Hochschulreife
+Oberbayern;5.312608695652174;5.57;23;regierungsbezirk;Schulabgänger mit allgemeiner Hochschulreife
+Oberfranken;8.078333333333335;7.919999999999999;12;regierungsbezirk;Schulabgänger mit allgemeiner Hochschulreife
+Oberpfalz;5.404999999999999;5.760000000000001;10;regierungsbezirk;Schulabgänger mit allgemeiner Hochschulreife
+Schwaben;5.381428571428572;5.970000000000001;14;regierungsbezirk;Schulabgänger mit allgemeiner Hochschulreife
+Unterfranken;6.475454545454546;6.829999999999998;11;regierungsbezirk;Schulabgänger mit allgemeiner Hochschulreife
+Mittelfranken;1.618333333333333;2.7250000000000014;12;regierungsbezirk;Schulabgänger mit mittlerem Abschluss
+Niederbayern;5.043333333333334;4.655000000000001;12;regierungsbezirk;Schulabgänger mit mittlerem Abschluss
+Oberbayern;2.9791304347826078;2.230000000000004;23;regierungsbezirk;Schulabgänger mit mittlerem Abschluss
+Oberfranken;2.4361538461538457;2.289999999999999;13;regierungsbezirk;Schulabgänger mit mittlerem Abschluss
+Oberpfalz;1.9609999999999992;1.9349999999999987;10;regierungsbezirk;Schulabgänger mit mittlerem Abschluss
+Schwaben;4.072142857142858;4.030000000000001;14;regierungsbezirk;Schulabgänger mit mittlerem Abschluss
+Unterfranken;1.3958333333333333;0.6800000000000033;12;regierungsbezirk;Schulabgänger mit mittlerem Abschluss
+Mittelfranken;-2.5583333333333336;-2.4899999999999998;12;regierungsbezirk;Schulabgänger ohne Abschluss
+Niederbayern;-2.9149999999999996;-3.81;12;regierungsbezirk;Schulabgänger ohne Abschluss
+Oberbayern;-1.9995652173913043;-1.7800000000000002;23;regierungsbezirk;Schulabgänger ohne Abschluss
+Oberfranken;-3.6092307692307695;-3.6099999999999994;13;regierungsbezirk;Schulabgänger ohne Abschluss
+Oberpfalz;-1.972;-2.04;10;regierungsbezirk;Schulabgänger ohne Abschluss
+Schwaben;-2.4349999999999996;-2.3449999999999998;14;regierungsbezirk;Schulabgänger ohne Abschluss
+Unterfranken;-1.6499999999999997;-1.5399999999999998;12;regierungsbezirk;Schulabgänger ohne Abschluss
+Mittelfranken;-18.872500000000002;-15.320000000000004;12;regierungsbezirk;Zuzugsrate
+Niederbayern;-21.588333333333335;-16.91;12;regierungsbezirk;Zuzugsrate
+Oberbayern;-20.95695652173913;-19.17000000000001;23;regierungsbezirk;Zuzugsrate
+Oberfranken;-22.71153846153846;-15.160000000000004;13;regierungsbezirk;Zuzugsrate
+Oberpfalz;-21.158;-17.380000000000006;10;regierungsbezirk;Zuzugsrate
+Schwaben;-18.195714285714285;-17.080000000000002;14;regierungsbezirk;Zuzugsrate
+Unterfranken;-17.857499999999998;-12.225000000000001;12;regierungsbezirk;Zuzugsrate

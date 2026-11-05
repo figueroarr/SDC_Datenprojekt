@@ -12,9 +12,8 @@ format:
     theme: none
     linkcolor: "#800080"
 execute:
-  echo: true
+  echo: false
   warning: false
-  eval: false
 ---
 
 ```{=html}
@@ -29,7 +28,7 @@ execute:
       <span class="title-line">VOM STRUKTURWANDEL?</span>
     </h1>
     <p class="cover-subtitle">
-      Eine <b>datenfeministische</b> Analyse der Geschlechterverhältnisse in deutschen Strukturwandelregionen.
+      Eine <b>datenfeministische</b> Analyse der Geschlechterverhältnisse in bayerischen Kreisen.
     </p>
   </div>
 </div>
@@ -40,7 +39,7 @@ execute:
   <a href="#forschungsfrage"><span class="nav-number">01</span><span>Forschungsfrage</span></a>
   <a href="#theoretischer-rahmen-datenfeminismus"><span class="nav-number">02</span><span>Rahmen</span></a>
   <a href="#problematik-der-datenlücken"><span class="nav-number">03</span><span>Daten</span></a>
-  <a href="#visualisierungskonzept"><span class="nav-number">04</span><span>Visualisierung</span></a>
+  <a href="#erste-ergebnisse"><span class="nav-number">04</span><span>Ergebnisse</span></a>
   <a href="#projektphasen"><span class="nav-number">05</span><span>Projektphasen</span></a>
   <a href="#midterm"><span class="nav-number">06</span><span>Midterm</span></a>
 </nav>
@@ -65,7 +64,7 @@ execute:
 ::: {.page-section .section-light .intro-panel}
 ## Kurzabstract
 
-Der Strukturwandel verändert Wirtschaft, Arbeitsmarkt und Lebensbedingungen in zahlreichen Regionen Deutschlands. Politische Maßnahmen orientieren sich dabei überwiegend an wirtschaftlichen Kennzahlen wie Beschäftigung, Investitionen oder Produktivität — geschlechtsspezifische Unterschiede werden hingegen häufig nur am Rande berücksichtigt. Ziel dieses Projekts ist es, Strukturwandelregionen aus einer datenfeministischen Perspektive zu analysieren. Mithilfe regionaler Open-Data-Datensätze werden Unterschiede zwischen Frauen und Männern hinsichtlich Arbeitsmarkt, Einkommen, Bildung und Demografie untersucht und visualisiert. Gleichzeitig wird kritisch hinterfragt, welche Dimensionen von Geschlechtergerechtigkeit durch bestehende Datensätze nicht erfasst werden.
+Der Strukturwandel verändert Wirtschaft, Arbeitsmarkt und Lebensbedingungen. Politische Maßnahmen orientieren sich dabei überwiegend an wirtschaftlichen Kennzahlen — geschlechtsspezifische Unterschiede werden häufig nur am Rande berücksichtigt. Ziel dieses Projekts ist es, **bayerische Kreise** aus einer datenfeministischen Perspektive zu analysieren. Mit INKAR-Daten werden Unterschiede zwischen Frauen und Männern hinsichtlich Bevölkerung, Wanderung, Bildung und Ausbildung untersucht und kartiert. Gleichzeitig wird kritisch hinterfragt, welche Dimensionen von Geschlechtergerechtigkeit in den verfügbaren Datensätzen **fehlen** — etwa Einkommen, Beschäftigung, Care-Arbeit oder Mental Load.
 :::
 
 :::: {#forschungsfrage .page-section .section-purple .question-section}
@@ -73,31 +72,31 @@ Der Strukturwandel verändert Wirtschaft, Arbeitsmarkt und Lebensbedingungen in 
 ## Forschungsfrage {#hauptfrage}
 
 **Hauptfrage**
-Inwiefern bilden verfügbare regionale Daten geschlechtsspezifische Unterschiede in deutschen Strukturwandelregionen ab, und welche relevanten Dimensionen bleiben aus datenfeministischer Perspektive unsichtbar?
+Inwiefern bilden verfügbare regionale Daten geschlechtsspezifische Unterschiede in bayerischen Kreisen ab — und welche relevanten Dimensionen bleiben aus datenfeministischer Perspektive unsichtbar?
 :::
 
 ::: {.question-followup}
 ### Unterfragen
 
-- Welche Unterschiede bestehen zwischen Frauen und Männern hinsichtlich Beschäftigung, Einkommen und Bildung?
-- Welche Regionen weisen besonders große geschlechtsspezifische Unterschiede auf?
-- Welche relevanten Gleichstellungsdimensionen (z. B. Sorgearbeit, Mental Load, Mobilität) werden in den verfügbaren Datensätzen nicht oder nur unzureichend erfasst?
-- Welche Auswirkungen haben diese Datenlücken auf die Bewertung des Strukturwandels?
+- Welche geschlechtsspezifischen Unterschiede zeigen sich in den verfügbaren INKAR-Indikatoren (Bevölkerung, Wanderung, Bildung, Ausbildung)?
+- Welche Regionen weisen besonders große Gender-Gaps auf, und unterscheiden sich ländlicher Raum und Verdichtungsraum?
+- Welche relevanten Gleichstellungsdimensionen (Einkommen, Beschäftigung, Sorgearbeit, Mental Load) werden in den verfügbaren Datensätzen nicht oder nur unzureichend erfasst?
+- Welche Konsequenzen haben diese Datenlücken für die Bewertung des Strukturwandels?
 :::
 ::::
 
 ::: {.page-section .section-light .objectives-section}
 ## Ziele des Projekts
 
-1. **Analyse** geschlechtsspezifischer Unterschiede in deutschen Strukturwandelregionen anhand regionaler Open-Data-Datensätze.
-2. **Visualisierung** räumlicher Muster und regionaler Unterschiede mithilfe interaktiver Karten und Diagramme.
-3. **Kritische Bewertung** der vorhandenen Datenbasis aus einer datenfeministischen Perspektive, um sichtbar zu machen, welche Aspekte von Geschlechtergerechtigkeit in offiziellen Datensätzen fehlen.
+1. **Analyse** geschlechtsspezifischer Unterschiede in bayerischen Kreisen anhand regionaler INKAR-Daten.
+2. **Visualisierung** räumlicher Muster mit interaktiven Karten und Diagrammen.
+3. **Kritische Bewertung** der vorhandenen Datenbasis aus datenfeministischer Perspektive — sichtbar machen, was in offiziellen Datensätzen fehlt.
 :::
 
 ::: {.page-section .section-light .theory-section}
 ## Theoretischer Rahmen: Datenfeminismus
 
-Das Projekt lässt sich als kritische Datenanalyse verstehen, bei der zwei Ebenen unterschieden werden: die quantitative Ebene, auf der geschlechtsspezifische Unterschiede anhand vorhandener Indikatoren analysiert und regional verglichen werden, sowie die reflexive Ebene, auf der hinterfragt wird, welche Kategorien und Lebensbereiche in diesen Datensätzen systematisch fehlen. Datenfeministische Prinzipien wie *„Count what counts, but also ask what's not counted"* oder *„Elevate emotion and embodiment"* (D'Ignazio & Klein) dienen dabei als Analyseraster.
+Das Projekt unterscheidet zwei Ebenen: die **quantitative Ebene**, auf der geschlechtsspezifische Unterschiede anhand vorhandener Indikatoren analysiert und regional verglichen werden, sowie die **reflexive Ebene**, auf der hinterfragt wird, welche Kategorien und Lebensbereiche in diesen Datensätzen systematisch fehlen. Datenfeministische Prinzipien wie *„Count what counts, but also ask what's not counted"* oder *„Elevate emotion and embodiment"* (D'Ignazio & Klein) dienen dabei als Analyseraster.
 :::
 
 :::: {.page-section .section-rose .data-section}
@@ -110,65 +109,268 @@ Amtliche Statistiken erfassen Geschlecht überwiegend binär und bilden Sorge- u
 
 ### Matrix: Vorhandene vs. fehlende Daten
 
-| Bereich | Vorhandene Daten | Fehlende Daten |
+Die Einschätzung bezieht sich auf die im Projekt tatsächlich aufbereitete INKAR-Datenbasis (43 Indikatoren, Bezugsjahr 2023).
+
+| Bereich | In den Daten vorhanden? | Anmerkung |
 |---|---|---|
-| Einkommen | Ja | – |
-| Beschäftigung | Ja | – |
-| Mobilität | Teilweise | – |
-| Care-Arbeit | – | Ja |
-| Mental Load | – | Ja |
-| Ehrenamt | – | Ja |
-| Pflegearbeit | – | Ja |
-
-## Analytischer Ansatz
-
-Zunächst werden alle relevanten, öffentlich verfügbaren Datensätze gesichtet und in der obigen Matrix erfasst. Auf Basis der vorhandenen Daten wird eine deskriptive und regionale Vergleichsanalyse durchgeführt. Für die als fehlend identifizierten Bereiche wird kein Ersatzdatensatz konstruiert — die Lücke selbst wird zum Gegenstand der Analyse.
+| Demografie (Bevölkerung, Altersgruppen) | Ja | nach Geschlecht aufgeschlüsselt |
+| Wanderung (Zu-/Fortzüge, Salden) | Ja | nach Geschlecht aufgeschlüsselt |
+| Bildung (Schulabschlüsse) | Ja | nach Geschlecht aufgeschlüsselt |
+| Ausbildung (Auszubildende) | Ja | nach Geschlecht aufgeschlüsselt |
+| Erwerbsbeteiligung / Beschäftigung | **Nein** | nicht im INKAR-Auszug enthalten |
+| Einkommen / Gender Pay Gap | **Nein** | nicht im INKAR-Auszug enthalten |
+| Care-Arbeit / Pflege | **Nein** | nicht in amtlichen Regionaldaten |
+| Mental Load | **Nein** | nicht in amtlichen Regionaldaten |
+| Ehrenamt | **Nein** | nicht in amtlichen Regionaldaten |
+| Alltagsmobilität / Wegezeiten | **Nein** | nicht im INKAR-Auszug enthalten |
 
 ## Datenquellen
 
-| Quelle | Enthält |
+| Quelle | Im Projekt verwendet für |
 |---|---|
-| INKAR | Bevölkerung, Bildung, Arbeitsmarkt, Einkommen, Demografie |
-| Destatis (GENESIS) | Erwerbstätigkeit, Gender Pay Gap, Bildungsindikatoren |
-| Bundesagentur für Arbeit | Beschäftigung nach Geschlecht und Region |
-| Zensus | Haushalte, Familienstrukturen, Pendeln |
-| Bundesstiftung Gleichstellung | Theoretische Grundlage und Einordnung |
+| INKAR 07/2025 (BBSR) | Alle 43 Indikatoren zu Bevölkerung, Wanderung, Bildung, Ausbildung, Raumstruktur |
+| Verwaltungsgebiets-Geopaket VG250 | Kreisgrenzen für die Karten |
+| StMWi-Raumstruktur 2023 | LEP-Gebietskategorie (LR/VR) und RmbH |
+| Bundesstiftung Gleichstellung (2025) | Theoretischer Rahmen und Einordnung |
+| D'Ignazio & Klein (2020) | Datenfeministisches Analyseraster |
+
+Nicht im Projekt verwendet, aber konzeptionell relevant: Destatis (GENESIS), Bundesagentur für Arbeit, Zensusdatenbank. Diese Quellen könnten die Lücken bei Beschäftigung und Einkommen schließen — ihre Einbindung ist eine mögliche Erweiterung.
+
+## Analytischer Ansatz
+
+Zunächst werden die verfügbaren INKAR-Indikatoren gesichtet und nach Geschlecht aufgeschlüsselt. Für alle Indikatorfamilien mit konsistenten Frauen- und Männerwerten wird der **Gender-Gap (Frauen − Männer)** auf Kreisebene berechnet. Ausgeschlossen wird dabei die Familie *Auszubildende*, weil Gesamtwert (je 1.000 SV-Beschäftigte) und Geschlechterwerte (Anteile in %) nicht direkt vergleichbar sind. Für die als fehlend identifizierten Bereiche wird **kein Ersatzdatensatz** konstruiert — die Lücke selbst wird zum Gegenstand der Analyse.
 ::::
 
 ```{python}
 #| label: setup
-#| eval: false
-# Grundgerüst für den Datenimport — Pakete und Pfade bei Bedarf anpassen
+#| include: false
 import pandas as pd
 import geopandas as gpd
+import numpy as np
+import plotly.express as px
 
-inkar = pd.read_csv("data/inkar.csv")
-destatis = pd.read_csv("data/destatis_gpg.csv")
-regionen = gpd.read_file("data/strukturwandelregionen.geojson")
+MASTER = pd.read_csv(
+    "data/processed/inkar_bayern_2023_master_validiert.csv",
+    sep=";", dtype={"Kennziffer": "string"}
+)
+MASTER["Kennziffer"] = MASTER["Kennziffer"].str.zfill(5)
+
+GAPS = pd.read_csv(
+    "data/processed/analyse_gaps_kreise.csv",
+    sep=";", dtype={"Kennziffer": "string"}
+)
+GAPS["Kennziffer"] = GAPS["Kennziffer"].str.zfill(5)
+
+REGIONEN = pd.read_csv(
+    "data/processed/analyse_gaps_regionen.csv",
+    sep=";"
+)
+
+RANKINGS = pd.read_csv(
+    "data/processed/analyse_rankings.csv",
+    sep=";", dtype={"Kennziffer": "string"}
+)
+
+GEO = gpd.read_file("data/processed/bayern_kreise_2023.geojson")
+GEO["Kennziffer"] = GEO["Kennziffer"].astype(str).str.zfill(5)
+
+INDIKATOREN = pd.read_csv(
+    "data/metadata/indikatorenliste_final.csv",
+    sep=";", dtype=str
+).fillna("")
 ```
+
+::: {.page-section .section-light .data-overview}
+## Datenbasis: Was ist da?
+
+Der bereinigte Master-Datensatz enthält 96 bayerische Kreise (25 kreisfreie Städte, 71 Landkreise) mit 43 INKAR-Indikatoren zum Bezugsjahr 2023. Nach Geschlecht aufgeschlüsselt und damit für Gender-Gaps nutzbar sind 10 Indikatorfamilien; nach Ausschluss der Familie *Auszubildende* (gemischte Einheiten) bleiben 9 Familien.
+
+```{python}
+#| label: tbl-indikatoren
+#| tbl-cap: "Indikatorfamilien mit berechenbarem Gender-Gap"
+uebersicht = (
+    INDIKATOREN[
+        (INDIKATOREN["gap_berechenbar"] == "ja")
+        & (INDIKATOREN["einheit_konsistent_in_familie"] == "ja")
+    ]
+    .groupby(["dimension", "indikator_familie", "einheit"])
+    .size()
+    .reset_index(name="anzahl_geschlechterwerte")
+    .sort_values(["dimension", "indikator_familie"])
+)
+uebersicht.columns = ["Dimension", "Indikatorfamilie", "Einheit", "Anzahl Werte"]
+uebersicht.reset_index(drop=True)
+```
+:::
+
+::: {.page-section .section-rose .dataluecken-section}
+## Was die Daten nicht zeigen
+
+Die INKAR-Datenbasis enthält 43 Indikatoren. Davon sind nur etwa die Hälfte nach Geschlecht aufgeschlüsselt – und zwar ausschließlich in den Bereichen Demografie, Wanderung, Bildung und Ausbildung. Zentrale Dimensionen von Geschlechtergerechtigkeit fehlen vollständig.
+
+```{python}
+#| label: fig-datenluecken
+#| fig-cap: "Geschlechterdifferenzierte vs. nur gesamt vorliegende Indikatoren pro Dimension"
+luecken = pd.read_csv("data/processed/analyse_datenluecken.csv", sep=";")
+luecken_long = luecken.melt(
+    id_vars="dimension",
+    value_vars=["geschlechterdifferenziert", "nur gesamt"],
+    var_name="kategorie", value_name="anzahl"
+)
+fig = px.bar(
+    luecken_long, x="anzahl", y="dimension", color="kategorie",
+    orientation="h", barmode="stack",
+    labels={"dimension": "", "anzahl": "Anzahl Indikatoren", "kategorie": ""},
+    color_discrete_map={"geschlechterdifferenziert": "#641a7b", "nur gesamt": "#cf9295"},
+)
+fig.update_layout(height=450, margin=dict(l=0, r=0, t=20, b=0))
+fig.show()
+```
+
+Die Grafik macht das zentrale datenfeministische Argument sichtbar: Wo eine Dimension in den Daten **gar nicht vorkommt**, kann sie auch nicht in die Bewertung des Strukturwandels eingehen. Einkommen, Beschäftigung, Care-Arbeit, Mental Load, Ehrenamt und Alltagsmobilität sind in der aufbereiteten Datenbasis **nicht enthalten** — die Lücke ist kein Nebenbefund, sondern selbst ein Ergebnis.
+:::
 
 ::: {.page-section .section-light .visual-section}
 ## Visualisierungskonzept
 
-**Karten:** Geschlechterunterschiede nach Region · Beschäftigungsquote · Einkommen · Teilzeitquote · Frauenanteil in verschiedenen Branchen
+Gezeigt werden Gender-Gaps für ausgewählte Indikatorfamilien — räumlich als Karte, vergleichend als Boxplot nach Raumtyp und als Ranking-Tabelle für ausgewählte Familien:
 
-**Diagramme:** Balkendiagramme · Liniendiagramme · Heatmaps · Scatterplots · Korrelationsmatrix
+- **Karte:** Gender-Gap Fortzugsrate (Frauen − Männer, je 1.000 Einwohner:innen)
+- **Karte:** Gender-Gap Schulabgänger:innen mit allgemeiner Hochschulreife (Frauen − Männer, Prozentpunkte)
+- **Boxplot:** Bildungs-Gaps nach LEP-Gebietskategorie (Ländlicher Raum vs. Verdichtungsraum)
+- **Boxplot:** Wanderungs-Gaps nach Raum mit besonderem Handlungsbedarf (RmbH: Ja/Nein)
+- **Tabelle:** Top-5 und Bottom-5 Kreise für ausgewählte Familien
 
-**Interaktives Dashboard:** Regionsauswahl · Indikatorenvergleich · Filter nach Geschlecht · zeitliche Entwicklung
-
-<div class="visual-placeholder-grid" aria-label="Platzhalter für spätere Visualisierungen">
-  <div class="visual-placeholder"><span>Platzhalter 01</span><strong>Regionale Karte</strong><small>Hier folgt die interaktive Karte.</small></div>
-  <div class="visual-placeholder"><span>Platzhalter 02</span><strong>Vergleichsdiagramm</strong><small>Hier folgen Kennzahlen und Vergleiche.</small></div>
-  <div class="visual-placeholder"><span>Platzhalter 03</span><strong>Datenlücken</strong><small>Hier folgt die Visualisierung fehlender Daten.</small></div>
-</div>
+Bewusste Einschränkung: Die Familie *Bevölkerung gesamt* wird nicht als Gap gezeigt, weil die Differenz Frauen − Männer hier in erster Linie den demografischen Frauenüberschuss abbildet und die Skalengröße (z. B. München) andere Familien optisch überstrahlen würde.
 :::
 
+:::: {#erste-ergebnisse .page-section .section-purple-light .results-section}
+## Erste Ergebnisse
+
+### Gender-Gap Fortzugsrate: Männer ziehen in jedem Kreis häufiger fort
+
 ```{python}
-#| label: fig-map-placeholder
-#| eval: false
-#| fig-cap: "Platzhalter — reale Karte folgt aus Phase III"
-regionen.plot(column="gender_pay_gap", cmap="Purples", legend=True)
+#| label: fig-map-fortzug
+#| fig-cap: "Gender-Gap Fortzugsrate (Frauen − Männer, je 1.000 Einwohner:innen). Negative Werte = Männer ziehen häufiger fort."
+FOKUS = "gap_Fortzugsrate"
+karte = GEO.merge(GAPS[["Kennziffer", FOKUS]], on="Kennziffer", how="left")
+
+fig = px.choropleth(
+    karte,
+    geojson=karte.__geo_interface__,
+    locations="Kennziffer",
+    featureidkey="properties.Kennziffer",
+    color=FOKUS,
+    color_continuous_scale="RdBu",
+    color_continuous_midpoint=0,
+    hover_name="kreisname",
+    labels={FOKUS: "Frauen − Männer (je 1.000)"},
+)
+fig.update_geos(fitbounds="locations", visible=False)
+fig.update_layout(margin=dict(l=0, r=0, t=20, b=0), height=560,
+                  coloraxis_colorbar_title="Gap")
+fig.show()
 ```
+
+Alle 96 Kreise zeigen einen negativen Wert (Spanne −94 bis −1, Median −9,95): Männer haben in ganz Bayern höhere Fortzugsraten als Frauen. Der stärkste Ausschlag liegt in Bamberg (Stadt), der in den INKAR-Metadaten als Sonderfall zentraler Aufnahmestellen dokumentiert ist.
+
+### Gender-Gap Hochschulreife: Frauen in fast allen Kreisen vorn
+
+```{python}
+#| label: fig-map-abi
+#| fig-cap: "Gender-Gap Schulabgänger:innen mit allgemeiner Hochschulreife (Frauen − Männer, Prozentpunkte). Positive Werte = höherer Frauenanteil. Bamberg LK und Schweinfurt LK ohne Daten."
+FOKUS = "gap_Schulabgänger mit allgemeiner Hochschulreife"
+karte = GEO.merge(GAPS[["Kennziffer", FOKUS]], on="Kennziffer", how="left")
+
+fig = px.choropleth(
+    karte,
+    geojson=karte.__geo_interface__,
+    locations="Kennziffer",
+    featureidkey="properties.Kennziffer",
+    color=FOKUS,
+    color_continuous_scale="RdBu",
+    color_continuous_midpoint=0,
+    hover_name="kreisname",
+    labels={FOKUS: "Frauen − Männer (Pp)"},
+)
+fig.update_geos(fitbounds="locations", visible=False)
+fig.update_layout(margin=dict(l=0, r=0, t=20, b=0), height=560,
+                  coloraxis_colorbar_title="Gap")
+fig.show()
+```
+
+In 92 von 94 Kreisen mit Daten haben Frauen einen höheren Abituranteil als Männer (Median +5,97 Pp). Nur zwei Kreise kippen ins Negative; für Bamberg (LK) und Schweinfurt (LK) fehlen die Werte, weil die Rohdaten hier 0,0 ausweisen (laut INKAR nicht erklärt, im Dashboard als „keine Daten" behandelt).
+
+### Bildungs-Gaps nach Ländlichem Raum und Verdichtungsraum
+
+```{python}
+#| label: fig-box-bildung
+#| fig-cap: "Gender-Gaps der Schulabschlüsse nach LEP-Gebietskategorie (Prozentpunkte, Frauen − Männer)"
+familien_bildung = [
+    "gap_Schulabgänger mit allgemeiner Hochschulreife",
+    "gap_Schulabgänger mit mittlerem Abschluss",
+    "gap_Schulabgänger mit Hauptschulabschluss",
+    "gap_Schulabgänger ohne Abschluss",
+]
+plot_df = (
+    GAPS[["Kennziffer", "lep_gebietskategorie"] + familien_bildung]
+    .melt(id_vars=["Kennziffer", "lep_gebietskategorie"],
+          var_name="familie", value_name="gap")
+    .dropna(subset=["gap"])
+)
+plot_df["familie"] = plot_df["familie"].str.replace("gap_Schulabgänger ", "", regex=False)
+
+fig = px.box(
+    plot_df, x="familie", y="gap", color="lep_gebietskategorie",
+    points="all", color_discrete_sequence=px.colors.qualitative.Set2,
+    labels={"familie": "Schulabschluss", "gap": "Frauen − Männer (Pp)",
+            "lep_gebietskategorie": "LEP"},
+)
+fig.update_layout(height=520, xaxis_tickangle=-20, margin=dict(l=0, r=0, t=20, b=60))
+fig.show()
+```
+
+Das Muster ist in beiden Raumtypen gleich: Frauen erreichen häufiger Hochschulreife und mittleren Abschluss, Männer häufiger Hauptschulabschluss oder gar keinen Abschluss. Die Unterschiede zwischen LR und VR sind klein.
+
+### Wanderungs-Gaps nach Raum mit besonderem Handlungsbedarf
+
+```{python}
+#| label: fig-box-wanderung
+#| fig-cap: "Gender-Gaps der Zu- und Fortzugsrate nach RmbH-Status (je 1.000 Einwohner:innen)"
+familien_wander = ["gap_Fortzugsrate", "gap_Zuzugsrate"]
+plot_df = (
+    GAPS[["Kennziffer", "rmbh"] + familien_wander]
+    .melt(id_vars=["Kennziffer", "rmbh"],
+          var_name="familie", value_name="gap")
+    .dropna(subset=["gap"])
+)
+plot_df["familie"] = plot_df["familie"].str.replace("gap_", "", regex=False)
+
+fig = px.box(
+    plot_df, x="familie", y="gap", color="rmbh",
+    points="all", color_discrete_sequence=px.colors.qualitative.Set1,
+    labels={"familie": "Indikator", "gap": "Frauen − Männer (je 1.000)",
+            "rmbh": "RmbH"},
+)
+fig.update_layout(height=480, margin=dict(l=0, r=0, t=20, b=20))
+fig.show()
+```
+
+Beide Gaps sind in allen Kreisen negativ: Männer haben höhere Fortzugs- **und** Zuzugsraten als Frauen. Der Unterschied zwischen RmbH- und Nicht-RmbH-Kreisen ist gering.
+
+### Ranking: Kreise mit den größten und kleinsten Abitur-Gaps
+
+```{python}
+#| label: tbl-ranking-abi
+#| tbl-cap: "Top-5 und Bottom-5 Kreise für den Gender-Gap Schulabgänger:innen mit allgemeiner Hochschulreife"
+ranking = RANKINGS[RANKINGS["familie"] == "Schulabgänger mit allgemeiner Hochschulreife"]
+oben = ranking[ranking["richtung"] == "top"].head(5)[["kreisname", "wert"]].rename(columns={"kreisname": "Kreis (höchster Frauenanteil)", "wert": "Gap (Pp)"})
+unten = ranking[ranking["richtung"] == "bottom"].head(5)[["kreisname", "wert"]].rename(columns={"kreisname": "Kreis (niedrigster Frauenanteil)", "wert": "Gap (Pp)"})
+pd.concat([oben.reset_index(drop=True), unten.reset_index(drop=True)], axis=1)
+```
+
+Die Spannweite reicht von +18,4 Prozentpunkten in **Kulmbach (Oberfranken)** bis −2,8 in **Lindau am Bodensee (Schwaben)**. Auffällig: Alle fünf Kreise mit dem größten Abitur-Gap liegen in **Nordbayern** — vier davon in Oberfranken und der Oberpfalz, einem Raum, der in der INKAR-Systematik überwiegend als „Raum mit besonderem Handlungsbedarf" geführt wird. Eine systematische Nord-Süd-Teilung ist auf Basis der Ranking-Tabelle allein aber nicht erkennbar — hier lohnt der Blick auf die Karte oben.
+::::
 
 ::: {.page-section .section-purple-light .phases-section}
 ## Projektphasen
@@ -188,9 +390,9 @@ regionen.plot(column="gender_pay_gap", cmap="Purples", legend=True)
 ## Midterm-Präsentation
 
 <div class="midterm-placeholder">
-  <span class="eyebrow">Platzhalter</span>
-  <h3>Hier wird die Midterm-Präsentation eingebunden</h3>
-  <p>Der Menüpunkt „06 Midterm“ führt direkt zu diesem Bereich. Hier können später Folien, ein Video oder eine Präsentationsdatei ergänzt werden.</p>
+  <span class="eyebrow">Hinweis</span>
+  <h3>Midterm-Folien</h3>
+  <p>Die aktuelle Fassung der Midterm-Präsentation liegt als <code>midterm.html</code> im Projektordner.</p>
 </div>
 :::
 
@@ -199,11 +401,11 @@ regionen.plot(column="gender_pay_gap", cmap="Purples", legend=True)
 
 | Bereich | Anforderung |
 |---|---|
-| Datenzugang | INKAR, GENESIS, Bundesagentur für Arbeit, Zensusdatenbank |
-| Datenaufbereitung | Bereinigung und Harmonisierung heterogener Datensätze |
-| Statistische Methoden | Deskriptive Statistik, Regionalvergleiche, Korrelationsanalysen |
-| Technische Umsetzung | Python (pandas, geopandas, plotly) oder Power BI/Tableau |
-| Geodaten | Shapefiles/GeoJSON der Strukturwandelregionen |
+| Datenzugang | INKAR, StMWi-Raumstruktur, VG250 |
+| Datenaufbereitung | Bereinigung und Harmonisierung, AGS-basierter Join |
+| Statistische Methoden | Deskriptive Statistik, Regionalvergleiche, Gender-Gap-Berechnung |
+| Technische Umsetzung | Python (pandas, geopandas, plotly) |
+| Geodaten | GeoJSON der bayerischen Kreisgrenzen |
 | Theoretischer Rahmen | Datenfeminismus (D'Ignazio & Klein) |
 | Zeitbudget | ca. 120 Stunden über ein Semester (4 ECTS) |
 :::
@@ -217,4 +419,6 @@ Die Studie der Bundesstiftung Gleichstellung untersucht die Geschlechterverhält
 
 - D'Ignazio, C. & Klein, L. (2020). *Data Feminism*. MIT Press. <https://data-feminism.mitpress.mit.edu/>
 - Bundesstiftung Gleichstellung (2025). *Geschlechterverhältnisse in Strukturwandelregionen*. <https://www.bundesstiftung-gleichstellung.de/wp-content/uploads/2025/09/250910_BSG_Studie_Geschlechterverhaeltnisse_Strukturwandelregionen_web.pdf>
+- Bundesinstitut für Bau-, Stadt- und Raumforschung (BBSR) (Hrsg.) (2025). *INKAR. Indikatoren und Karten zur Raum- und Stadtentwicklung*. Ausgabe 07/2025. Bonn.
+- Bayerisches Staatsministerium für Wirtschaft, Landesentwicklung und Energie (StMWi) (2023). *LEP-Gebietskategorien, Stand 1. Juni 2023*.
 :::
