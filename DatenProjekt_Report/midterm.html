@@ -177,8 +177,8 @@ Was nicht erhoben wird, kann in einer datenbasierten Bewertung leicht fehlen.
 </div>
 </div>
 </section>
-<section id="unsere-forschungsfrage" class="slide level2 question-slide">
-<h2>Unsere Forschungsfrage</h2>
+<section id="forschungsfrage" class="slide level2 question-slide">
+<h2>Forschungsfrage</h2>
 <div class="question-label">
 HAUPTFRAGE
 </div>
@@ -232,7 +232,7 @@ Leitgedanke nach D’Ignazio &amp; Klein: nicht nur fragen, was gezählt wird, s
 Die Daten werden mit regionalen Informationen zur Raumstruktur ergänzt – darunter Regierungsbezirk, LEP-Gebietskategorie und „Raum mit besonderem Handlungsbedarf“.
 </div>
 <p class="footnote">
-Die aktuelle Datengrundlage deckt bayerische Kreise ab. Die konkrete Abgrenzung der im Projekt betrachteten Strukturwandelregionen wird in der Auswertung transparent gemacht.
+Die Datengrundlage deckt bayerische Kreise ab. Im Projekt wird „Strukturwandelregion” über LEP-Gebietskategorie (LR/VR) und RmbH-Status operationalisiert; die Abgrenzung ist im Bericht dokumentiert.
 </p>
 </section>
 <section id="welche-rohdaten-nutze-ich-und-warum" class="slide level2">
@@ -293,7 +293,7 @@ Skript 03 ergänzt Regierungsbezirk, ländlichen Raum (LR), Verdichtungsraum (VR
 </div>
 </div>
 <p class="footnote">
-Im Ordner <code>RawData</code> liegen außerdem zwei Excel-Tabellen. Die hier vorgestellten Skripte lesen diese derzeit nicht ein; sie sind daher noch keine Grundlage der gezeigten Aufbereitung.
+Neben <code>inkar-2.xls</code> (von Skript 02b eingelesen) liegen im Ordner <code>RawData</code> zwei weitere Excel-Auszüge (<code>Tab_1.1.1</code> Bevölkerungsentwicklung, <code>Tab_1.1.4</code> Ausländeranteile). Diese werden für die aktuelle Auswertung nicht automatisch eingelesen; sie dienen als Referenz für die LEP-Gebietskategorien und den RmbH-Status.
 </p>
 </section>
 <section id="skripte-0103-daten-vorbereiten" class="slide level2">
@@ -396,40 +396,123 @@ Verbindet die geprüften Werte mit den Kreisgrenzen, kontrolliert 96 Geometrien,
 So entsteht eine nachvollziehbare Verarbeitungskette: Rohdaten → bereinigte Tabellen → geprüfter Master → Kartengrundlage.
 </p>
 </section>
-<section id="zwischenstand-nächste-schritte" class="slide level2">
-<h2>Zwischenstand &amp; nächste Schritte</h2>
+<section id="erste-ergebnisse-was-die-daten-zeigen" class="slide level2">
+<h2>Erste Ergebnisse: Was die Daten zeigen</h2>
+<div class="lead smaller">
+Aus den aufbereiteten Daten lassen sich für 9 Indikatorfamilien Gender-Gaps (Frauen − Männer) berechnen. Zwei Muster sind besonders deutlich.
+</div>
 <div class="two-columns">
 <div class="panel panel-purple">
-<span class="eyebrow">BEREITS VORBEREITET</span>
+<span class="eyebrow">WANDERUNG</span>
+<h3>
+Fortzugsrate
+</h3>
+<p>
+<strong>Alle 96 Kreise</strong> zeigen einen negativen Gap (Median −9,95 je 1.000 Einwohner:innen). Männer ziehen in ganz Bayern häufiger fort als Frauen — der stärkste Ausschlag in Bamberg (Stadt), dokumentiert als Sonderfall zentraler Aufnahmestellen.
+</p>
+</div>
+<div class="panel panel-rose">
+<span class="eyebrow">BILDUNG</span>
+<h3>
+Allgemeine Hochschulreife
+</h3>
+<p>
+In <strong>92 von 94</strong> Kreisen mit Daten haben Frauen einen höheren Abituranteil als Männer (Median +5,97 Prozentpunkte). Nur zwei Kreise kippen ins Negative; für Bamberg LK und Schweinfurt LK fehlen die Werte (Rohdaten 0,0, laut INKAR nicht erklärt).
+</p>
+</div>
+</div>
+<p class="footnote">
+Abbildungen im Bericht: Choropleth-Karten zum Fortzugsraten- und Hochschulreife-Gap, Boxplots nach LEP-Gebietskategorie (LR/VR) und RmbH-Status, Ranking-Tabelle der Top-5 / Bottom-5 Kreise.
+</p>
+</section>
+<section id="erste-ergebnisse-was-die-daten-nicht-zeigen" class="slide level2">
+<h2>Erste Ergebnisse: Was die Daten nicht zeigen</h2>
+<div class="lead smaller">
+Von 11 untersuchten Dimensionen sind 6 in der INKAR-Datenbasis <strong>gar nicht</strong> enthalten — und damit auch nicht in eine datenbasierte Bewertung des Strukturwandels übertragbar.
+</div>
+<div class="two-columns">
+<div class="panel panel-purple">
+<span class="eyebrow">VORHANDEN · 5 DIMENSIONEN</span>
 <ul>
 <li>
-INKAR-Daten für Bayern bereinigt
+Bevölkerung und Demografie
 </li>
 <li>
-Metadaten und Raumstruktur zusammengeführt
+Wanderung und Mobilität
 </li>
 <li>
-Master-Datensatz validiert
+Bildung und Ausbildung
 </li>
 <li>
-Geodaten für eine Kreiskarte vorbereitet
+Raumstruktur
+</li>
+<li>
+Geschlechterstruktur
 </li>
 </ul>
 </div>
 <div class="panel panel-rose">
-<span class="eyebrow">ALS NÄCHSTES</span>
+<span class="eyebrow">FEHLEND · 6 DIMENSIONEN</span>
 <ul>
 <li>
-Indikatoren und Geschlechterbezug systematisch prüfen
+Einkommen / Gender Pay Gap
 </li>
 <li>
-Regionale Vergleiche durchführen
+Erwerbsbeteiligung / Beschäftigung
 </li>
 <li>
-Ergebnisse als Karten und Diagramme zeigen
+Care-Arbeit / Pflege
 </li>
 <li>
-Datenlücken kritisch einordnen
+Mental Load
+</li>
+<li>
+Ehrenamt
+</li>
+<li>
+Alltagsmobilität / Wegezeiten
+</li>
+</ul>
+</div>
+</div>
+<p class="footnote">
+Die Lücke ist selbst ein Ergebnis: Was nicht erhoben wird, kann in einer datenbasierten Bewertung nicht auftauchen — sichtbar gemacht in der Abbildung „Was die Daten nicht zeigen” im Bericht.
+</p>
+</section>
+<section id="zwischenstand-nächste-schritte" class="slide level2">
+<h2>Zwischenstand &amp; nächste Schritte</h2>
+<div class="two-columns">
+<div class="panel panel-purple">
+<span class="eyebrow">BEREITS FERTIG</span>
+<ul>
+<li>
+Pipeline 01–08 durchlaufen und validiert (96 Kreise, 25 kreisfreie Städte, 71 Landkreise)
+</li>
+<li>
+9 Gender-Gap-Familien auf Kreisebene berechnet
+</li>
+<li>
+Karten, Boxplots und Ranking-Tabelle im Bericht erstellt
+</li>
+<li>
+Datenlücken-Analyse quantifiziert
+</li>
+</ul>
+</div>
+<div class="panel panel-rose">
+<span class="eyebrow">BIS ZUM ENDBERICHT</span>
+<ul>
+<li>
+Midterm-Feedback einarbeiten
+</li>
+<li>
+Prüfen, ob Beschäftigung und Einkommen aus Destatis/BA ergänzt werden
+</li>
+<li>
+Interaktives Dashboard als Prototyp
+</li>
+<li>
+Kritische Einordnung mit der BSG-Studie abgleichen
 </li>
 </ul>
 </div>
