@@ -3,3 +3,8 @@
 **/.quarto/
 **/__pycache__/
 *.py[cod]
+
+# Backup-Dateien
+DatenProjekt_Report/*backup*.qmd
+DatenProjekt_Report/data/metadata/*.backup.csv
+*.backup.*
